@@ -1,0 +1,22 @@
+
+                 ^
+% Invalid input detected at '^' marker.
+
+aaa accounting suppress null-username
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/^
+% Invalid input detected at '^' marker.
+
+                 ^
+% Invalid input detected at '^' marker.
+                 ^
+% Invalid input detected at '^' marker.
+
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/                 ^
+% Invalid input detected at '^' marker.
+
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/
+username globalnike privilege 15 secret 5 $1$ZTyA$8puYsMVuufSqTWxGa1Kif/
+                 ^
+% Invalid input detected at '^' marker.
