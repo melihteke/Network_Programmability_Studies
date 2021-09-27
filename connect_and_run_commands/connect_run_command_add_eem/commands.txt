@@ -1,0 +1,12 @@
+event manager applet Cellular_INT_Reset
+ event syslog pattern "%LINEPROTO-5-UPDOWN: Line protocol on Interface Cellular0, changed state to down"
+ action 1.0 syslog msg "Cellular Interface is down, starting interface reset operation"
+ action 1.1 cli command "enable"
+ action 2.0 cli command "configure terminal"
+ action 3.0 cli command "int Cellular0"
+ action 4.0 cli command "shut"
+ action 5.0 wait 10
+ action 6.0 cli command "no shut"
+ action 7.0 cli command "end"
+ action 8.0 cli command "exit"
+!
